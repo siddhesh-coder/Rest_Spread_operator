@@ -25,3 +25,9 @@ function visitLog(place1,place2,...restVisit){
 }
 
 visitLog(...place);
+
+//String to array using spread
+
+const string = "JavaScript";
+const stringArray = [...string];
+console.log(stringArray);
